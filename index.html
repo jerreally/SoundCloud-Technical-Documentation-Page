@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="normalize.css">   
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>My Technical Documentation Page</title>
+</head>
+
+<body>
+  <div class="wrapper">
+  <nav id="navbar">
+    <h2>SoundCloud Help Center</h2>
+        <ul>
+          <li><a class="nav-link" href="#Requirements">Technical Requirements</a>
+          <li><a class="nav-link" href="#SC_API">SoundCloud API</a>
+          <li><a class="nav-link" href="#SDK">SoundCloud SDK</a>
+          <li><a class="nav-link" href="#embedded_player">Embedded Player</a>
+          <li><a class="nav-link" href="#branding_kit">Branding Kit</a>
+        </ul>
+  </nav>
+  
+
+  <main id="main-doc">
+    <section class="main-section">
+      <h2 id="Requirements">Technical Requirements</h2>
+      <p>Using SoundCloud has minimum system requirements. We support the following browser, IOS and Android versions listed here:
+      <p><b>Browsers:</b></p>
+        <ul>
+          <li>Chrome >= 40</li>
+          <li>Firefox >= 41</li>
+          <li>Internet Explorer 11</li>
+          <li>Safari 8</li>
+      </ul>
+      <p><b>Mobile Operating Systems:</b></p>
+        <ul>
+          <li>IOS 12.0 or later (please note that we do not support beta operating systems)</li>
+          <li>Android 5 or later</li>
+        </ul>
+      <p>If you are using an older browser and/or computer, you might encounter difficulties so we'd always recommend you keep things up to date. We do encourage users to use Google Chrome or Firefox to have the best SoundCloud experience.</p>
+    </section>
+
+    <section class="main-section">
+      <h2 id="SC_API">SoundCloud API</h2>
+      <p>Using the SoundCloud API, you can build applications that take sound on the web to the next level. With this guide we explain and provide code examples for many common integration use cases like playing and uploading sounds or how to take advantage of SoundCloud's many social features. If you're looking for more in depth information, feel free to jump to our API Reference.<br>
+         To help you get started quickly, SDKs are available for Python, Ruby, JavaScript. To follow along with the examples below, you'll need to have at least one SDK installed.<br>
+        Now go ahead and jump to the section you're most interested in and get started.</p>
+    </section>
+
+    <section class="main-section">
+      <h2 id="SDK">SoundCloud SDK</h2>
+      <p>The SDKs will make it easier to access the SoundCloud API on your framework of choice. We officially provide and support Ruby, Python and JavaScript. All other SDKs are supported by third-party developers.<br>
+        We welcome contributions to the open source projects so imagine how happy we'd be if you submit an SDK of your own for any additional language.</p>
+    </section>
+    
+    <section class="main-section">
+      <h2 id="embedded_player">Embedded Player</h2>
+      <p>In order to access the JavaScript object which provides the SoundCloud Widget API, add this script to your html page.<br>  
+         This script exposes the SC.Widget(/*iframeElement|iframeElementID*/) function to the global scope. It allows you to control the widget from the parent page (the page the widget is inserted into). SC.Widget accepts the reference to the iframe element or its id.</p>
+    </section>
+
+    <section class="main-section">
+      <h2 id="brandking_kit">Branding Kit</h2>
+        <p><b>Buttons & Logos - How to Properly Attribute in Your App</b></p>
+        <p>It's always nice to give people credit for their work. If you're building an app that uses data provided by SoundCloud and our community it's best to give attribution. It's a way of saying thanks and encourages people to keep creating awesome things.</p>
+        <p>When using someone's work, give them similar representation and link back to where the creator and original work can be found.<br>
+        In some rare use cases it's tricky to attribute exactly in this way. For those cases we ask that you:</p>
+        <ol>
+          <li>Credit the uploader as the creator of the sound</li>
+          <li>Credit SoundCloud as the source by including one of the logos below</li>
+          <li>Link to the SoundCloud URL containing the work</li>
+        </ol>
+    </section>
+  </main> 
+  </div>
+</body>
+</html>
